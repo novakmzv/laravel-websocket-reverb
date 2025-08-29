@@ -15,11 +15,11 @@
             <form id="notificationForm">
                 <div class="mb-3">
                     <label for="message" class="form-label">Mensaje</label>
-                    <input type="text" class="form-control" id="message" name="message" required>
+                    <input autocomplete="off" type="text" class="form-control" id="message" name="message" required>
                 </div>
                 <div class="mb-3">
                     <label for="user" class="form-label">Usuario (opcional)</label>
-                    <input type="text" class="form-control" id="user" name="user">
+                    <input autocomplete="off" type="text" class="form-control" id="user" name="user">
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
