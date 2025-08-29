@@ -23,7 +23,7 @@ class NotificationRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'message' => 'required|string|max:255|min:3',
+            'message' => 'required|string|max:255|min:1',
             'user' => 'nullable|string|max:100',
         ];
     }
